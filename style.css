@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    scroll-snap-align: start;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: blue;
+}
+.four{
+    background-color: yellow;
+}
